@@ -1,0 +1,2 @@
+model_type,accuracy,precision,recall,f1
+Random Forest,1.0,1.0,1.0,1.0

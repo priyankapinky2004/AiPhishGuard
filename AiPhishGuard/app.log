@@ -1,0 +1,35 @@
+2025-04-14 22:15:14,167 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:15:14,279 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.33:5000
+2025-04-14 22:15:14,280 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:15:14,288 - werkzeug - INFO -  * Restarting with stat
+2025-04-14 22:15:17,442 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:15:17,468 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 22:15:17,475 - werkzeug - INFO -  * Debugger PIN: 114-490-944
+2025-04-14 22:16:26,904 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:16:26,953 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.33:5000
+2025-04-14 22:16:26,954 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:16:26,956 - werkzeug - INFO -  * Restarting with stat
+2025-04-14 22:16:30,165 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:16:30,191 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 22:16:30,197 - werkzeug - INFO -  * Debugger PIN: 114-490-944
+2025-04-14 22:20:42,631 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:20:42,696 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.50.33:5000
+2025-04-14 22:20:42,696 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:20:42,698 - werkzeug - INFO -  * Restarting with stat
+2025-04-14 22:20:45,902 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:20:45,932 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 22:20:45,939 - werkzeug - INFO -  * Debugger PIN: 114-490-944
+2025-04-14 22:21:13,288 - werkzeug - INFO -  * Detected change in 'c:\\Users\\cchan\\OneDrive\\Desktop\\AiPhishGuard\\AiPhishGuard\\models\\predict.py', reloading
+2025-04-14 22:21:13,539 - werkzeug - INFO -  * Restarting with stat
+2025-04-14 22:21:16,956 - root - INFO - Model and scaler loaded successfully
+2025-04-14 22:21:16,990 - werkzeug - WARNING -  * Debugger is active!
+2025-04-14 22:21:16,999 - werkzeug - INFO -  * Debugger PIN: 114-490-944

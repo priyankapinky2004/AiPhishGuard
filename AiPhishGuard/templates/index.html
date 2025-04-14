@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard - URL Phishing Detection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <h1>PhishGuard</h1>
+            </div>
+            <p class="tagline">Advanced URL Phishing Detection</p>
+        </header>
+
+        <main>
+            <div class="search-container">
+                <form id="url-form">
+                    <div class="input-group">
+                        <input type="url" id="url-input" placeholder="Enter a URL to check..." required>
+                        <button type="submit" id="check-button">
+                            <span class="button-text">Check URL</span>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="examples">
+                    <p>Examples: <span class="example-url" data-url="https://www.google.com">google.com</span>, <span class="example-url" data-url="https://www.amazon.com">amazon.com</span>, <span class="example-url" data-url="http://paypa1.com/secure/login.html">paypa1.com</span></p>
+                </div>
+            </div>
+
+            <div class="loader" id="loader">
+                <div class="spinner"></div>
+                <p>Analyzing URL...</p>
+            </div>
+
+            <div class="result-container" id="result-container">
+                <div class="result-header">
+                    <h2>Analysis Results</h2>
+                    <span class="timestamp" id="timestamp">April 14, 2025 10:30:45</span>
+                </div>
+                
+                <div class="result-content">
+                    <div class="result-card" id="result-card">
+                        <div class="url-display" id="result-url">
+                            <i class="fas fa-link"></i>
+                            <span>https://example.com</span>
+                        </div>
+                        
+                        <div class="verdict" id="verdict">
+                            <div class="verdict-icon safe" id="verdict-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="verdict-text">
+                                <h3 id="verdict-title">URL is Safe</h3>
+                                <p id="verdict-description">This URL appears to be legitimate and safe to visit.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="probability-meter">
+                            <div class="prob-label">
+                                <span>Phishing Probability</span>
+                                <span id="probability-value">1.23%</span>
+                            </div>
+                            <div class="meter">
+                                <div class="meter-bar" id="probability-bar"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="features-card">
+                        <h3>URL Features</h3>
+                        <div class="features-grid" id="features-grid">
+                            <!-- Features will be added here by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="actions">
+                    <button id="check-another" class="secondary-button">
+                        <i class="fas fa-redo"></i>
+                        <span>Check Another URL</span>
+                    </button>
+                    <button id="details-toggle" class="tertiary-button">
+                        <span>Show Technical Details</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+                
+                <div class="technical-details" id="technical-details">
+                    <h3>Technical Details</h3>
+                    <pre id="json-response"></pre>
+                </div>
+            </div>
+            
+            <div class="error-container" id="error-container">
+                <div class="error-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <h3>Error</h3>
+                <p id="error-message">Unable to analyze URL. Please try again.</p>
+                <button id="error-dismiss" class="secondary-button">
+                    <i class="fas fa-redo"></i>
+                    <span>Try Again</span>
+                </button>
+            </div>
+        </main>
+
+        <div class="info-section">
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <div class="info-content">
+                    <h3>What is Phishing?</h3>
+                    <p>Phishing is a type of cyber attack where attackers create fake websites that mimic legitimate ones to steal sensitive information like passwords and credit card details.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="info-content">
+                    <h3>How PhishGuard Works</h3>
+                    <p>PhishGuard uses machine learning to analyze URL characteristics such as length, special characters, and suspicious words to identify potential phishing attempts.</p>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <div class="info-icon">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <div class="info-content">
+                    <h3>Stay Safe Online</h3>
+                    <p>Always verify the URL before entering sensitive information, look for HTTPS, and be cautious of unexpected requests for personal data.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 PhishGuard. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
